@@ -1,15 +1,15 @@
 {
-    "liveServer.settings.multiRootWorkspaceName": "jawdatStyle"
+    "liveServer.settings.multiRootWorkspaceName": "JamonUI"
     "liveSassCompile.settings.formats":[
-        // {
-        //     "format": "expanded",
-        //     "extensionName": ".css",
-        //     "savePath": "src/theme/assets/css"
-        // },
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "/assets/css"
+        },
         {
             "extensionName": ".min.css",
             "format": "compressed",
-            "savePath": "src/theme/assets/css"
+            "savePath": "/assets/css"
         }
     ]
 }
