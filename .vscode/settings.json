@@ -1,0 +1,15 @@
+{
+    "liveServer.settings.multiRootWorkspaceName": "jawdatStyle"
+    "liveSassCompile.settings.formats":[
+        // {
+        //     "format": "expanded",
+        //     "extensionName": ".css",
+        //     "savePath": "src/theme/assets/css"
+        // },
+        {
+            "extensionName": ".min.css",
+            "format": "compressed",
+            "savePath": "src/theme/assets/css"
+        }
+    ]
+}
