@@ -1,0 +1,68 @@
+body.documentation{
+    .container{
+        display: flex;
+    }
+
+    .sidebarDoc{
+        width:250px;
+        height: 100vh;
+        overflow-x: auto;
+        border-right: 1px solid $border-color;
+        .title{
+            padding: 5px 0;
+            img{width:50%;display: table;}
+        }
+    }
+    .contentDoc{
+        
+    }
+
+
+    // Nav Acordeon
+    .sidebarNav{
+        .accordion {
+            background-color: white;
+            color: $text-color;
+            cursor: pointer;
+            padding: 18px;
+            width: 100%;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 15px;
+            transition: 0.4s;
+        }
+          
+        .active, .accordion:hover {
+            background-color: rgb(248, 248, 248);
+        }
+
+        .accordion:after {
+            content: '\02795'; /* Unicode character for "plus" sign (+) */
+            font-size: 9px;
+            color: $text-color;
+            float: right;
+            margin-top: 6px;
+            margin-left: 5px;
+        }
+            
+        .active:after {
+            content: "\2796"; /* Unicode character for "minus" sign (-) */
+        }
+          
+        .panel {
+            padding: 0 18px;
+            background-color: white;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.2s ease-out;
+        }
+    }
+    // Nav Acordeon
+
+
+
+}
+// End Documentation
+
+
